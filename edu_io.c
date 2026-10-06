@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-2.0
+
 #include "edu_io.h"
 #include "edu_device.h"
 

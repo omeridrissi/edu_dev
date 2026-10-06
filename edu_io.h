@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-2.0
+
 #ifndef EDU_IO_H
 #define EDU_IO_H
 

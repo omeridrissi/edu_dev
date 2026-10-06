@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-2.0
+
 #include "edu_device.h"
 #include "edu_io.h"
 #include "edu_fs.h"
@@ -246,3 +248,6 @@ static struct pci_driver edu_pci_driver = {
 };
 
 builtin_pci_driver(edu_pci_driver);
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("qemu edu pci driver implementation");
