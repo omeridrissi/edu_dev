@@ -1,0 +1,6 @@
+config EDU_DEV
+	tristate "QEMU virtual pci edu device driver"
+	depends on PCI
+	help
+	  Enables EDU virutal pci device recognition and handling support.
+
